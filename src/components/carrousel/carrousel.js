@@ -16,20 +16,20 @@ class CarrouselComponent extends HTMLElement {
             <div class="carrousel">
                 <div class="carrousel__item pos1">
                     <div class="info1">
-                        <h2>Boostrap</h2>
-                        <p>Lorem ipsum</p>
+                        <my-text size="jumbotitle" color="white">Boostrap</my-text>
+                        <my-text size="jumbosubtitle" color="white">Lorem ipsum dolor sit amet consectetur adipisicing elit.</my-text>
                     </div>
                     <div class="info2">
-                        <h2>JavaScrip</h2>
-                        <p>Lorem ipsum</p>
+                        <my-text size="jumbotitle" color="white">JavaScrip</my-text>
+                        <my-text size="jumbosubtitle" color="white">Ratione facere accusantium laboriosam. Commodi, distinctio consectetur.</my-text>
                     </div>
                     <div class="info3">
-                        <h2>TypeScrip</h2>
-                        <p>Lorem ipsum</p>
+                        <my-text size="jumbotitle" color="white">TypeScrip</my-text>
+                        <my-text size="jumbosubtitle" color="white">Exercitationem expedita iste perferendis laboriosam ipsum ullam sapiente.</my-text>
                     </div>
                     <div class="info4">
-                        <h2>PHP</h2>
-                        <p>Lorem ipsum</p>
+                        <my-text size="jumbotitle" color="white">PHP</my-text>
+                        <my-text size="jumbosubtitle" color="white">Praesentium fugiat facere et illum quaerat reprehenderit.</my-text>
                     </div>
                 </div>
             <div class="carrousel__select">
