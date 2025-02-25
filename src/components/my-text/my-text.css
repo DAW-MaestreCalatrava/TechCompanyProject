@@ -1,0 +1,29 @@
+h1 {
+    font-family: "OpenSans";
+    font-size: 36px;
+    line-height: 40px;
+}
+
+h2 {
+    font-family: "OpenSans";
+    font-size: 16px;
+    line-height: 20px;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+h1.jumbotitle {
+    font-family: "Open Sans";
+    font-size: 54px;
+    line-height: 60px;
+}
+
+h2.jumbosubtitle {
+    font-family: "Open Sans";
+    font-size: 18px;
+    line-height: 26px;
+}
