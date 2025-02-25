@@ -1,0 +1,83 @@
+.carrousel{
+    width: 510px;
+    height: 340px;
+    background-repeat: no-repeat;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: 
+    url("../../img/fondoCarrusel.jpg") no-repeat,
+    rgba(192, 46, 95, 0.8);
+    background-size: contain;
+    background-blend-mode: overlay;
+    overflow: hidden;
+}
+.carrousel__item{
+    position: absolute;
+    left: 0;
+    width: 510px;
+    height: 150px;
+    color: white;
+    transition: transform 1s linear 0s;
+    display: grid;
+    grid-template-columns:repeat(4,100%) ;
+}
+.fa-solid{
+    font-size: 32px;
+    color: white;
+}
+.button_right{
+    cursor: pointer;
+    position: absolute;
+    height: 10%;
+    top: 45%;
+    bottom: 45%;
+    right: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+.button_left{
+    cursor: pointer;
+    position: absolute;
+    height: 10%;
+    top: 45%;
+    bottom: 45%;
+    left: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pos1{
+    transform: translate(0%);
+}
+.pos2{
+    transform: translate(-100%);
+}
+.pos3{
+    transform: translate(-200%);
+}
+.pos4{
+    transform: translate(-300%);
+}
+.carrousel__item>div{
+    width: 350px;
+    height: 150px;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+.carrousel__select{
+    position: absolute;
+    bottom: 10px;
+    display: flex;
+    width: 70px;
+    justify-content: space-around;
+}
+.carrousel__select>i{
+    font-size: 14px;
+    color: white;
+}
