@@ -1,6 +1,6 @@
 .carrousel{
-    width: 510px;
-    height: 340px;
+    width: 100%;
+    height: 360px;
     background-repeat: no-repeat;
     position: relative;
     display: flex;
@@ -8,17 +8,17 @@
     justify-content: center;
     align-items: center;
     background: 
-    url("../../img/fondoCarrusel.jpg") no-repeat,
+    url("../../img/fondoCarrusel.avif") no-repeat,
     rgba(192, 46, 95, 0.8);
-    background-size: contain;
+    background-size: cover;
     background-blend-mode: overlay;
     overflow: hidden;
 }
 .carrousel__item{
     position: absolute;
     left: 0;
-    width: 510px;
-    height: 150px;
+    width: 100%;
+    height: 200px;
     color: white;
     transition: transform 1s linear 0s;
     display: grid;
@@ -65,10 +65,8 @@
     transform: translate(-300%);
 }
 .carrousel__item>div{
-    width: 350px;
-    height: 150px;
-    padding-left: 80px;
-    padding-right: 80px;
+    padding-left: 25%;
+    padding-right: 25%;
 }
 .carrousel__select{
     position: absolute;
