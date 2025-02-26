@@ -20,9 +20,7 @@ class AboutUs extends HTMLElement {
             <div class="aboutContainer">
                 <div class="about--textContainer">
                     <my-text text size="title" color="#7f1b7e">${this.title}</my-text>
-                        <div class="about--text">
-                            <slot name="description"></slot>
-                        </div>
+                    <slot name="description"></slot>
                 </div>
                 <img src="${this.src}" alt="about us" class="about--img"/>
             </div>
