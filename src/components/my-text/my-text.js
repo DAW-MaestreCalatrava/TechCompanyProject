@@ -1,3 +1,4 @@
+import styles from "./my-text.css" with { type: "css" };
 // Propiedades importantes: color, alineado al centro y el size
 class TextComponent extends HTMLElement {
     static get observedAttributes() {
@@ -14,9 +15,9 @@ class TextComponent extends HTMLElement {
     }
 
     render() {
+        this.shadowRoot.adoptedStyleSheets.push(styles);
         this.shadowDOM.innerHTML = /*HTML*/ `
             <style>
-                @import "my-text.css";
                 h1, h2, p {
                     color: ${this.color};
                     text-align: ${this.alignCenter ? 'center' : 'unset'}; /* Si es true, entonces center, si no, unset */

@@ -1,7 +1,8 @@
-import styles from "./icon-button.css" with {type: "css"};
+import styles from "./icon-button.css" with { type: "css" };
+
 class IconButton extends HTMLElement {
     static get observedAttributes() {
-        return ["text", "url", "media"];
+        return [ "url", "media"];
     }
 
     constructor() {
@@ -15,20 +16,24 @@ class IconButton extends HTMLElement {
     }
 
     render() {
-        const icon = this.media === "instagram" ? "fa-instagram" : this.media;
 
         this.shadowRoot.adoptedStyleSheets.push(styles);
+
         this.shadowRoot.innerHTML = /* html */ `
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+            crossorigin="anonymous"
+        />
         <a href="${this.url}" class="icon-button">
-        <div class="fa-brands ${icon}"></div>
-        
+            <i class="icon fa-brands fa-${this.media}"></i>
         </a>
         `;
     }
 
     attributeChangedCallback(name, oldValue, newValue) {
-        if (name === "url") this.url = newValue;
-        if (name === "media") this.media = newValue;
+        // if (name === "url") this.url = newValue;
+        // if (name === "media") this.media = newValue;
         this.render();
     }
 }
