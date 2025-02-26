@@ -1,0 +1,54 @@
+.container {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: black;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+.container2 {
+    background-color: #302A31;
+    color: white;
+    padding: 20px;
+    margin-bottom: 50px;
+}
+
+
+.texto {
+    font-size: 12px;
+    width: 50%;
+    margin: 0;
+}
+
+
+.copyright {
+    position: absolute;
+    right: 20px;
+    bottom: 0px;
+    color: white;
+    padding: 10px 20px;
+    margin: 0;
+}
+
+.follow{
+    position: relative;
+    left: 110%;
+    bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.follow h3{
+    font-size: 19px;
+}
+
+.icons {
+    display: flex; 
+    gap: 10px; 
+}
