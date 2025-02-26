@@ -1,19 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" crossorigin="anonymous">
-    <link rel="stylesheet" href="/src/css/reset.css" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="/src/css/reset.css" crossorigin="anonymous" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Raleway"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Open+Sans"
+    />
 
-    <script type="module" src="/main.js"></script>
+    <script type="module" src="../main.js"></script>
 
     <title>Document</title>
 </head>
-<body>
+  <body>
+    <header>
+      <nav>
+        <link-button text="Home" url="/components/index.html"></link-button>
+        <link-button text="About" url="/components/index.html"></link-button>
+        <link-button text="Services" url="/components/index.html"></link-button>
+        <link-button text="Pages" url="/components/index.html"></link-button>
+      </nav>
+
+      <primary-button
+        text="Primary"
+        url="/components/index.html"
+        size="body"
+      ></primary-button>
+
+      <icon-button media="instagram" url="/components/index.html"></icon-button>
+      <div class="fa-brands fa-instagram"></div>
+    </header>
+ <header-component></header-component>   
     <carrusel-component></carrusel-component>
     <services-card title="Responsive design" description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." icon="fa-solid fa-burger"></services-card>
-</body>
+  </body>
 </html>

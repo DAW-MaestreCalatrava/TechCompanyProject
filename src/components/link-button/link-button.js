@@ -1,0 +1,34 @@
+import styles from "./link-button.css" with { type: "css" };
+
+class LinkButton extends HTMLElement {
+    static get observedAttributes() {
+        return ["text", "url"];
+    }
+
+    constructor() {
+        super();
+        this.attachShadow({ mode: "open" });
+
+        this.text = this.getAttribute("text") || "Enlace";
+        this.url = this.getAttribute("url") || "#";
+
+        this.render();
+    }
+
+    render() {
+        this.shadowRoot.adoptedStyleSheets.push(styles);
+        this.shadowRoot.innerHTML = /* html */ `
+            <style>
+            </style>
+            <a href="${this.url}" class="link-button">${this.text}</a>
+        `;
+    }
+
+    attributeChangedCallback(name, oldValue, newValue) {
+        if (name === "text") this.text = newValue;
+        if (name === "url") this.url = newValue;
+        this.render();
+    }
+}
+
+customElements.define("link-button", LinkButton);
