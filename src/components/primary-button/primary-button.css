@@ -1,0 +1,22 @@
+.primary-button {
+    color: #fff;
+    background-color: #7f1b7e;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+
+    display: inline-block;
+    transition: background 0.3s ease;
+}
+
+.primary-button:hover {
+    color: #7f1b7e;
+    background-color: #fff;
+}
+
+.text-body{
+    font-family: Helvetica;
+    font-size: 16px;
+    line-height: 20px;
+}
