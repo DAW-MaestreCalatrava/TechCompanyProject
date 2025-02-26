@@ -1,0 +1,22 @@
+
+.aboutContainer {
+    margin: 2rem 0;
+    display: flex;
+    justify-content: space-between;
+    height: 60vh;
+    padding: 2rem;
+}
+
+.about--textContainer {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.about--img {
+    width: 40%;
+}
+
+.about--text {
+
+}
