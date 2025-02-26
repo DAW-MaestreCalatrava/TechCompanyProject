@@ -1,1 +1,1 @@
-import "./components/burguer-component/burguer-component.js";
+import "./components/footer-component/footer-component.js";
