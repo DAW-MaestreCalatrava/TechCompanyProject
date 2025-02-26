@@ -1,3 +1,5 @@
+import styles from './my-text.css' with { type: 'css' };
+
 // Propiedades importantes: color, alineado al centro y el size
 import styles from "./my-text.css" with {type: "css"};
 
@@ -12,6 +14,7 @@ class TextComponent extends HTMLElement {
         this.size = this.getAttribute("size") || "body";
         this.color = this.getAttribute("color") || "#000";
         this.alignCenter = this.getAttribute("alignCenter") || false;
+        this.shadowRoot.adoptedStyleSheets = [styles];
         this.render();
     }
 
