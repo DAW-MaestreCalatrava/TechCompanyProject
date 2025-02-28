@@ -1,4 +1,10 @@
 .icon-button {
+    text-decoration: none;
+}
+
+.icon {
+    font-size: 30px;
+    color: #7f1b7e;
     background-color: green;
     width: 10px;
 }
