@@ -94,13 +94,53 @@ Esto iniciará un servidor en `http://localhost:2442` donde podrás ver la pági
 
 ## Componentes
 
-### Burguer Component
-
-Un componente de ejemplo que muestra un ícono de hamburguesa.
-
 ### Services Card
 
 Un componente que muestra una tarjeta de servicio con un título, descripción e ícono.
+
+### Footer component
+
+Un componente que muestra el footer informacion y redes sociales
+
+### About us
+
+Un componente que da información sobre la empresa
+
+### header
+
+Un componente que muestra el header de la pagina
+
+### Icon button
+
+Un componente que trae las imagenes de los botones
+
+### Link button
+
+Un componente que usa los links de los botones
+
+### My form
+
+Un componente que enseña el formulario
+
+### My input
+
+Un componente campo del formulario
+
+### My text
+
+Un componente campo del formulario
+
+### My text area 
+
+Un campo del formulario en forma de textarea
+
+### Primary buttonç
+
+Un componente boton del formulario
+
+### service card
+
+Un componente que muestra los servicios
 
 ### Service Section
 
