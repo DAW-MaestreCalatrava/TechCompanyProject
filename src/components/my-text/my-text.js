@@ -1,3 +1,5 @@
+import styles from './my-text.css' with { type: 'css' };
+
 // Propiedades importantes: color, alineado al centro y el size
 import styles from "./my-text.css" with {type: "css"};
 
@@ -73,7 +75,3 @@ class TextComponent extends HTMLElement {
 }
 
 customElements.define("my-text", TextComponent);
-
-
-//import styles from './componente.css' with { type: 'css' }; // Importar estilos
-//En el render() --> this.shadowRoot.innerHTML = `
