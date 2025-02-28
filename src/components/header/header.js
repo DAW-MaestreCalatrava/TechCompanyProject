@@ -16,9 +16,9 @@ class HeaderComponent extends HTMLElement {
             <header class="header">
                 <img class="logo" src="./src/img/${this.img}" alt="Logo de la compania">
                 <nav class="menu">
-                    <link-button text="Home" url="/TechCompanyProject/index.html"></link-button>
-                    <link-button text="About" url="/TechCompanyProject/about-us.html"></link-button>
-                    <link-button text="Contact" url="/TechCompanyProject/contact.html"></link-button>
+                    <link-button text="Home" url="/TechCompanyProject/"></link-button>
+                    <link-button text="About" url="/TechCompanyProject/"></link-button>
+                    <link-button text="Contact" url="/TechCompanyProject/"></link-button>
                 </nav>
             </div>
         `;

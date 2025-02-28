@@ -1,22 +1,21 @@
-.container {
+footer {
     bottom: 0;
     left: 0;
     width: 100%;
-    background-color: black;
     box-sizing: border-box;
     margin: 0;
     padding: 0;
     display: flex;
     flex-direction: column;
+    background-color: #302A31;
 }
 
 
-.container2 {
-    background-color: #302A31;
+.principal {
     color: white;
     padding: 20px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     font-size: 16px;
 }
 
@@ -31,7 +30,6 @@
 .copyright {
     position: relative;
     bottom: 0px;
-    color: white;
     padding: 10px 20px;
     margin: 0;
     width: 100%;
@@ -45,7 +43,7 @@
     flex-direction: column;
     align-items: center;
     gap: 10px;
-    margin-right: 40px;
+    width: 20%;
 }
 .copyright>p{
     text-align: right;
