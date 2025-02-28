@@ -1,25 +1,19 @@
-import styles from './my-input.css' with { type: 'css' }; // Importar estilos
+import styles from './my-input.css' with { type: 'css' };
 
 class InputComponent extends HTMLElement {
     constructor() {
         super();
         this.attachShadow({ mode: 'open' });
+        this.render();
+    }
 
-        // Crear input
-        const input = document.createElement('input');
-        input.classList.add('my-input');
-
-        // Obtener placeholder
-        const placeholder = this.getAttribute('placeholder') || '';
-        input.setAttribute('placeholder', placeholder);
-
-        // Agregar estilos
+    render() {
         this.shadowRoot.adoptedStyleSheets = [styles];
 
-        // Agregar elementos al Shadow DOM
-        this.shadowRoot.append(style, input);
+        this.shadowRoot.innerHTML = /* html */ `
+            <input class="my-input" placeholder="${this.getAttribute('placeholder') || ''}">
+        `;
     }
 }
 
-// Definir el custom element
 customElements.define('my-input', InputComponent);
