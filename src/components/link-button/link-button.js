@@ -22,6 +22,9 @@ class LinkButton extends HTMLElement {
             </style>
             <a href="${this.url}" class="link-button">${this.text}</a>
         `;
+        if (this.url==location.href) {
+            this.shadowRoot.querySelector("a").classList.add("active");
+        }
     }
 
     attributeChangedCallback(name, oldValue, newValue) {
