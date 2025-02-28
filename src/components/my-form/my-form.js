@@ -15,7 +15,7 @@ class FormComponent extends HTMLElement {
                 <my-input placeholder="Email ID" type="email"></my-input>
                 <my-input placeholder="Phone No." type="tel"></my-input>
                 <my-textarea placeholder="Type your message here..." rows="5"></my-textarea>
-                <primary-button type="submit">Send message</primary-button>
+                <primary-button type="submit" text="Enviar mensaje"></primary-button>
             </form>
         `;
     }
