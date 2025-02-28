@@ -10,6 +10,10 @@ footer {
     background-color: #302A31;
 }
 
+footer hr{
+    width: 100%;
+}
+
 
 .principal {
     color: white;
