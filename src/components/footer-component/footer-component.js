@@ -13,14 +13,19 @@ class footerComponent extends HTMLElement{
         this.shadowRoot.innerHTML = /* html */`
             <footer>
                 <div class="principal">
-                    <div class="mitad1">
-                        <my-text size="title" color="white">About Atlanta</my-text>
-                        <my-text size="body" color="white" class="texto">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed dui et nibh lobortis pharetra. Cras aliquet vehicula tincidunt. Aliquam volutpat, nisl a feugiat gravida, quam magna dictum purus, non dapibus ante elit id nisi. Mauris vitae faucibus orci. In sit amet condimentum libero, nec laoreet augue.
+                    <div class="location">
+                        <my-text size="title" color="white">Búscanos</my-text>
+                        <hr>
+                        <my-text size="body" color="white">
+                            Calle Toledo 35, Ciudad Real, España
+                        </my-text>
+                        <my-text size="body" color="white">
+                            +34 123 456 789
                         </my-text>
                     </div>
                     <div class="follow">
-                        <my-text size="title" color="white">Follow me</my-text>
+                        <my-text size="title" color="white">Síguenos</my-text>
+                        <hr>
                         <div class="icons">
                             <icon-button media="instagram" url="#"></icon-button>
                             <icon-button media="facebook" url="#"></icon-button>
@@ -30,7 +35,7 @@ class footerComponent extends HTMLElement{
                 </div>
                 <div class="copyright">
                     <my-text size="body" color="white">
-                    Copyright © 2014. Template by WebThemez
+                    Copyright © 2025. By TechCompany
                     </my-text>
                 </div>
             </footer>
