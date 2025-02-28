@@ -9,7 +9,7 @@
     align-items: center;
     background: 
     url("../../img/fondoCarrusel.avif") no-repeat,
-    rgba(192, 46, 160, 0.8);
+    rgba(164, 38, 168, 0.8);
     background-size: cover;
     background-blend-mode: overlay;
     overflow: hidden;
