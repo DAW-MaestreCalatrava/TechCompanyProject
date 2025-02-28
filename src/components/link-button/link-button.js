@@ -21,26 +21,10 @@ class LinkButton extends HTMLElement {
         this.shadowRoot.innerHTML = /* html */ `
             <a href="${this.url}" class="link-button">${this.text}</a>
         `;
-
-        this.addEventListeners();
-    }
-
-    addEventListeners() {
-        const link = this.shadowRoot.querySelector(".link-button");
-        link.addEventListener("click", (event) => {
-            event.preventDefault(); // Evita la navegación inmediata
-
-            // Remover 'active' de todos los botones
-            document.querySelectorAll("link-button").forEach((btn) => {
-                btn.shadowRoot.querySelector(".link-button").classList.remove("active");
-            });
-
-            // Agregar 'active' al botón clicado
-            link.classList.add("active");
-        });
         if (this.url==location.href) {
             this.shadowRoot.querySelector("a").classList.add("active");
         }
+        this.addEventListeners();
     }
 
     attributeChangedCallback(name, oldValue, newValue) {
