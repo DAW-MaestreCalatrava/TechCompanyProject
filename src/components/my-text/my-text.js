@@ -1,5 +1,3 @@
-import styles from './my-text.css' with { type: 'css' };
-
 // Propiedades importantes: color, alineado al centro y el size
 import styles from "./my-text.css" with {type: "css"};
 
