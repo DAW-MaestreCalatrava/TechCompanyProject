@@ -8,3 +8,7 @@
     width: 10px;
     margin-right: 20px;
 }
+
+.icon:hover {
+    color: #7f1b7e;
+}
