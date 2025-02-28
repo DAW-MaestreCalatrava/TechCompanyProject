@@ -38,6 +38,9 @@ class LinkButton extends HTMLElement {
             // Agregar 'active' al botón clicado
             link.classList.add("active");
         });
+        if (this.url==location.href) {
+            this.shadowRoot.querySelector("a").classList.add("active");
+        }
     }
 
     attributeChangedCallback(name, oldValue, newValue) {

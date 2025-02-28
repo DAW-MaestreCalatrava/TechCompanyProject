@@ -14,14 +14,11 @@ class HeaderComponent extends HTMLElement {
                 @import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css";
             </style>
             <header class="header">
-                <img class="logo" src="/src/img/${this.img}" alt="Logo de la compania">
+                <img class="logo" src="./src/img/${this.img}" alt="Logo de la compania">
                 <nav class="menu">
-                    <link-button text="Home"></link-button>
-                    <link-button text="About"></link-button>
-                    <link-button text="Services"></link-button>
-                    <link-button text="Portfolio"></link-button>
-                    <link-button text="Pages"></link-button>
-                    <link-button text="Contact"></link-button>
+                    <link-button text="Home" url="./index.html"></link-button>
+                    <link-button text="About" url="./contact.html"></link-button>
+                    <link-button text="Contact" url="./about-us.html"></link-button>
                 </nav>
             </div>
         `;
