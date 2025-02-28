@@ -21,9 +21,7 @@ class LinkButton extends HTMLElement {
         this.shadowRoot.innerHTML = /* html */ `
             <a href="${this.url}" class="link-button">${this.text}</a>
         `;
-        let link=location.href;
-        let href=link.split("https://daw-maestrecalatrava.github.io/TechCompanyProject");
-        if ("."+href[0]==location.href) {
+        if (this.url==location.pathname) {
             this.shadowRoot.querySelector("a").classList.add("active");
         }
     }
