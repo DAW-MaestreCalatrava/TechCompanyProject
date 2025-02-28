@@ -4,7 +4,7 @@ class HeaderComponent extends HTMLElement {
     constructor() {
         super();
         this.attachShadow({ mode: "open" });
-        this.img = this.getAttribute("img") || "logo.jpg";
+        this.img = this.getAttribute("img") || "./src/img/logo.jpg";
         this.render();
     }
     render() {
