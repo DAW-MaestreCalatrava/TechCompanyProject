@@ -7,6 +7,6 @@
     transition: background 0.3s ease;
 }
 
-.active {
+.link-button:active {
     color: #fff;
 }
