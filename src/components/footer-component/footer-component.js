@@ -13,10 +13,12 @@ class footerComponent extends HTMLElement{
         this.shadowRoot.innerHTML = /* html */`
             <div class="container">
                 <div class="container2">
-                    <h3>About Atlanta</h3>
-                    <div class="texto">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed dui et nibh lobortis pharetra. Cras aliquet vehicula tincidunt. Aliquam volutpat, nisl a feugiat gravida, quam magna dictum purus, non dapibus ante elit id nisi. Mauris vitae faucibus orci. In sit amet condimentum libero, nec laoreet augue. Morbi bibendum erat quis nulla rutrum iaculis non nec ex. Sed nec lorem placerat, molestie tellus eget, consequat tortor. Sed vulputate a purus ut iaculis. Praesent ac dolor quis sem iaculis egestas at id ligula.
-                    <div>
+                    <div class="mitad1">
+                        <h3>About Atlanta</h3>
+                        <div class="texto">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed dui et nibh lobortis pharetra. Cras aliquet vehicula tincidunt. Aliquam volutpat, nisl a feugiat gravida, quam magna dictum purus, non dapibus ante elit id nisi. Mauris vitae faucibus orci. In sit amet condimentum libero, nec laoreet augue. Morbi bibendum erat quis nulla rutrum iaculis non nec ex. Sed nec lorem placerat, molestie tellus eget, consequat tortor. Sed vulputate a purus ut iaculis. Praesent ac dolor quis sem iaculis egestas at id ligula.
+                        </div>
+                    </div>
                     <div class="follow">
                         <h3>Follow me</h3>
                         <div class="icons">
