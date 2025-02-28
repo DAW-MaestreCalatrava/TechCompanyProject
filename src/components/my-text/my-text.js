@@ -1,6 +1,8 @@
 import styles from './my-text.css' with { type: 'css' };
 
 // Propiedades importantes: color, alineado al centro y el size
+import styles from "./my-text.css" with {type: "css"};
+
 class TextComponent extends HTMLElement {
     static get observedAttributes() {
         return ["size", "color", "alignCenter"];
@@ -17,6 +19,7 @@ class TextComponent extends HTMLElement {
     }
 
     render() {
+        this.shadowRoot.adoptedStyleSheets.push(styles);
         this.shadowDOM.innerHTML = /*HTML*/ `
             <style>
                 h1, h2, p {
