@@ -9,12 +9,6 @@ TechCompanyProject es una página de aterrizaje para una empresa de tecnología 
 ├── .gitignore
 ├── components/
 │   ├── index.html
-│   ├── services-card/
-│   │   ├── services-card.js
-│   │   └── servicesCard.css
-│   ├── serviceSection/
-│   │   ├── serviceSection.css
-│   │   └── serviceSection.js
 ├── index.html
 ├── LICENSE
 ├── main.js
@@ -24,20 +18,49 @@ TechCompanyProject es una página de aterrizaje para una empresa de tecnología 
 │   └── Proyecto Lading - EasyTech.pdf
 └── src/
     ├── components/
-    │   ├── burguer-component/
-    │   │   ├── burguer-component.css
-    │   │   └── burguer-component.js
+    |   |──about-us/
+    |   |   |──about-us.css
+    |   |   |__about-us.js
     │   ├── carrousel/
     │   │   ├── carrousel.css
     │   │   └── carrousel.js
+    |   |──footer-component/
+    |   |   |──footer-component.css
+    |   |   |__footer-component.js
+    |   |──header-component/
+    |   |   |──header.css
+    |   |   |__header.js
+    |   |──icon-button/
+    |   |   |──icon-button.css
+    |   |   |__icon-button.js
+    |   |──link-button/
+    |   |   |──link-button.css
+    |   |   |__link-button.js
+    |   |──my-form/
+    |   |   |──my-form.css
+    |   |   |__my-form.js
+    |   |──my-input/
+    |   |   |──my-input.css
+    |   |   |__my-input.js
     │   ├── my-text/
     │   │   ├── my-text.js
     │   │   └── my-text.css
+    |   |──my-textarea/
+    |   |   |──my-textarea.css
+    |   |   |__my-textarea.js
+    |   |──primary-button/
+    |   |   |──primary-button.css
+    |   |   |__primary-button.js
     │   ├── services-card/
-    │   └── serviceSection/
+    |   |   |──service-card.css
+    |   |   |__service-card.js
+    │   |── serviceSection/
+    |   |   |──serviceSection.css
+    |   |   |__serviceSection.js
     ├── css/
     │   └── reset.css
     ├── img/
+    |   |── fondoCarrusel.avif
     │   ├── fondoCarrusel.jpg
     │   └── logo.jpg
     └── index.js
