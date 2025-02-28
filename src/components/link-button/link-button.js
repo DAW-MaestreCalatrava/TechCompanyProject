@@ -24,7 +24,6 @@ class LinkButton extends HTMLElement {
         if (this.url==location.href) {
             this.shadowRoot.querySelector("a").classList.add("active");
         }
-        this.addEventListeners();
     }
 
     attributeChangedCallback(name, oldValue, newValue) {
