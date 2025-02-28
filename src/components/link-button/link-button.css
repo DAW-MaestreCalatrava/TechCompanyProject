@@ -10,3 +10,6 @@
 .link-button:active {
     color: #fff;
 }
+.link-button.active {
+    color: #fff;
+}
