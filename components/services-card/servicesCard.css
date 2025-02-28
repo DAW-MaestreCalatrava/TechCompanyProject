@@ -1,0 +1,27 @@
+.card {
+    background-color: #ffffff00;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.title {
+    color: #000;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+}
+
+.descripcion {
+    color: #333;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+}
+
+i { 
+    font-size: 80px;
+    color: #7f1b7e;
+}
