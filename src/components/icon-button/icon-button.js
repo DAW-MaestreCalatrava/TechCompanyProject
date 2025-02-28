@@ -31,11 +31,6 @@ class IconButton extends HTMLElement {
         `;
     }
 
-    attributeChangedCallback(name, oldValue, newValue) {
-        // if (name === "url") this.url = newValue;
-        // if (name === "media") this.media = newValue;
-        this.render();
-    }
 }
 
 customElements.define("icon-button", IconButton);
