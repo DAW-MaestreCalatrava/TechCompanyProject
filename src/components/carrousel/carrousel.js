@@ -21,11 +21,11 @@ class CarrouselComponent extends HTMLElement {
                     </div>
                     <div class="info2">
                         <my-text size="jumbotitle" color="white">JavaScript</my-text>
-                        <my-text size="jumbosubtitle" color="white">Cursos rapidos para aprender JavaScrip</my-text>
+                        <my-text size="jumbosubtitle" color="white">Cursos rapidos para aprender JavaScript</my-text>
                     </div>
                     <div class="info3">
                         <my-text size="jumbotitle" color="white">TypeScript</my-text>
-                        <my-text size="jumbosubtitle" color="white">Aprende a usar correctamente las variables con tipo de TypeScrip</my-text>
+                        <my-text size="jumbosubtitle" color="white">Aprende a usar correctamente las variables con tipo de TypeScript</my-text>
                     </div>
                     <div class="info4">
                         <my-text size="jumbotitle" color="white">PHP</my-text>
