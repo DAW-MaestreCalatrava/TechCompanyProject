@@ -16,15 +16,15 @@ class CarrouselComponent extends HTMLElement {
             <div class="carrousel">
                 <div class="carrousel__item pos1">
                     <div class="info1">
-                        <my-text size="jumbotitle" color="white">Boostrap</my-text>
+                        <my-text size="jumbotitle" color="white">Bootstrap</my-text>
                         <my-text size="jumbosubtitle" color="white">Utilizamos de forma creativa los componentes de Bootstrap</my-text>
                     </div>
                     <div class="info2">
-                        <my-text size="jumbotitle" color="white">JavaScrip</my-text>
+                        <my-text size="jumbotitle" color="white">JavaScript</my-text>
                         <my-text size="jumbosubtitle" color="white">Cursos rapidos para aprender JavaScrip</my-text>
                     </div>
                     <div class="info3">
-                        <my-text size="jumbotitle" color="white">TypeScrip</my-text>
+                        <my-text size="jumbotitle" color="white">TypeScript</my-text>
                         <my-text size="jumbosubtitle" color="white">Aprende a usar correctamente las variables con tipo de TypeScrip</my-text>
                     </div>
                     <div class="info4">
